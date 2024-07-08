@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.query-section {
+  border: 2px solid black;
+  padding: 20px;
+  width: 80vw;
+}
+
+.query-ans-div {
+  border-top: 2px solid black;
+}
+.query-txt-and-sign {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 3px 0px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.query-txt-and-sign:hover {
+  background-color: rgb(117, 123, 117);
+  cursor: pointer;
+}
+.plus-minus {
+  float: right;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.ans {
+  margin: 0px 0px 10px 0px;
+  padding: 0px 10px;
+  display: none;
+}
+.ans-diplay {
+  display: block;
+}
